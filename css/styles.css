@@ -1,0 +1,7 @@
+:root {
+    background: var(--colorfondo);
+    --colornegro: #22262A;
+    --colorfondo: #ffffff;
+    --colorlinks: #19507F;
+    --colorheader: #F6F7F8,
+}
