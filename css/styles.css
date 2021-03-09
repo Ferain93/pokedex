@@ -5,3 +5,10 @@
     --colorlinks: #19507F;
     --colorheader: #F6F7F8,
 }
+
+.hero {
+    background-image: url('../images/banner.png');
+    block-size: 340px;
+    background-repeat: no-repeat;
+    margin-block-start: 154px;
+}
