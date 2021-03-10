@@ -39,10 +39,12 @@ header {
 }
 
 nav summary{
-    padding: 18px 154px 283.1px 20px;
+    padding: 18px 154px 14px 20px;
+    font-size: 18px;
 }
 
-nav ul {
-    padding: 56px 21px 16.1px 21px;
-    display: block;
+nav ul li{
+    padding: 0px 21px 16.1px 21px;
+    color: var(--colorlinks);
+    margin: 0;
 }
