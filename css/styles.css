@@ -17,3 +17,7 @@ body {
     color: var(--colornegro);
     font-family: 'Montserrat', sans-serif;
 }
+
+p {
+    font-family: 'Lato', sans-serif;
+}
