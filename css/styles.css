@@ -12,3 +12,8 @@
     background-repeat: no-repeat;
     margin-block-start: 154px;
 }
+
+body {
+    color: var(--colornegro);
+    font-family: 'Montserrat', sans-serif;
+}
