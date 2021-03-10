@@ -3,7 +3,7 @@
     --colornegro: #22262A;
     --colorfondo: #ffffff;
     --colorlinks: #19507F;
-    --colorheader: #F6F7F8,
+    --colorheader: #F6F7F8;
 }
 
 .hero {
@@ -13,6 +13,14 @@
     margin-block-start: 154px;
 }
 
+/*h1 {
+    margin-block-start: -570px;
+}
+
+.pokedex {
+    margin-block-start: 570px;
+}*/
+
 body {
     color: var(--colornegro);
     font-family: 'Montserrat', sans-serif;
@@ -20,4 +28,21 @@ body {
 
 p {
     font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: var(--colorheader);
+    font-weight: 600;
+    margin-block-start: 26px;
+    width: 270px;
+    height: 325.12px;
+}
+
+nav summary{
+    padding: 18px 154px 283.1px 20px;
+}
+
+nav ul {
+    padding: 56px 21px 16.1px 21px;
+    display: block;
 }
