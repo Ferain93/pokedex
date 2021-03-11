@@ -32,7 +32,7 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
-header {
+aside {
     background: var(--colorheader);
     font-weight: 600;
     margin-block-start: 26px;
