@@ -10,7 +10,9 @@
     background-image: url('../images/banner.png');
     block-size: 340px;
     background-repeat: no-repeat;
-    margin-block-start: 154px;
+    inset-block-start: 154px;
+    inset-inline-start: 375px;
+    inset-inline-end: 375px;
 }
 
 /*h1 {
@@ -46,5 +48,11 @@ nav summary{
 nav ul li{
     padding: 0px 21px 16.1px 21px;
     color: var(--colorlinks);
-    margin: 0;
+    list-style: none;
+}
+
+li::before{
+    content: " ● ";
+    color: var(--colornegro);
+    font-weight: bold;
 }
