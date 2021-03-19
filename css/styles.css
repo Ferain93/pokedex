@@ -56,3 +56,11 @@ li::before{
     color: var(--colornegro);
     font-weight: bold;
 }
+
+.pokedex-item__detail .title {
+    font-weight: bold;
+}
+
+.pokedex-item {
+    display: flex;
+}
