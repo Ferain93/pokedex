@@ -26,6 +26,9 @@
 body {
     color: var(--colornegro);
     font-family: 'Montserrat', sans-serif;
+    /*display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: 15% 85%;*/
 }
 
 p {
@@ -62,5 +65,6 @@ li::before{
 }
 
 .pokedex-item {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
