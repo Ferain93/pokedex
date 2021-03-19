@@ -6,6 +6,14 @@
     --colorheader: #F6F7F8;
 }
 
+.wrapper {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header__title{
+    text-align: center;
+}
 .hero {
     background-image: url('../images/banner.png');
     block-size: 340px;
