@@ -23,20 +23,14 @@
     inset-inline-end: 375px;
 }
 
-/*h1 {
-    margin-block-start: -570px;
+.main {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
 }
-
-.pokedex {
-    margin-block-start: 570px;
-}*/
 
 body {
     color: var(--colornegro);
     font-family: 'Montserrat', sans-serif;
-    /*display: grid;
-    grid-template-columns: 20% 70% 10%;
-    grid-template-rows: 15% 85%;*/
 }
 
 p {
@@ -75,4 +69,8 @@ li::before{
 .pokedex-item {
     display: grid;
     grid-template-columns: 3fr 1fr;
+}
+
+.footer {
+    text-align: center;
 }
