@@ -66,6 +66,7 @@
 
 .nav-list__item a { 
     color: var(--colorlinks); 
+    text-decoration: none;
 }
 
 .pokedex-item {
