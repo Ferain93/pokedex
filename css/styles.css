@@ -32,6 +32,7 @@
 
 .main {
     display: grid;
+    grid-column-gap: 28.9px;
     grid-template-columns: 2fr 6fr;
 }
 
@@ -39,23 +40,32 @@
     background: var(--colorheader);
     font-weight: 600;
     margin-block-start: 26px;
-    width: 270px;
     height: 325.12px;
+}
+
+.nav-aside{
+    padding: 18px 20px 16.1px 20px;
 }
 
 .nav-list {
     font-size: 0.8rem;
+    padding-left: 0px;
 }
 
-.aside-nav .nav-list__item {
+.nav-list__item {
     color: var(--colorlinks);
     list-style: none;
+    padding-bottom: 19px;
 }
 
-.aside-nav .nav-list__item::before {
+.nav-list__item::before {
     content: " ● ";
     color: var(--colornegro);
     font-weight: bold;
+}
+
+.nav-list__item a { 
+    color: var(--colorlinks); 
 }
 
 .pokedex-item {
@@ -99,6 +109,7 @@
 .pokedex-item__links .info{
     display: flex;
     margin: 10.5px 0px 30.2px 0px;
+    color: var(--colorlinks);
 }
 
 .footer {
