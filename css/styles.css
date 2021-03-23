@@ -6,39 +6,10 @@
     --colorheader: #F6F7F8;
 }
 
-body {
+.body {
     font-size: 18px;
     color: var(--colornegro);
     font-family: 'Montserrat', sans-serif;
-}
-
-aside {
-    background: var(--colorheader);
-    font-weight: 600;
-    margin-block-start: 26px;
-    width: 270px;
-    height: 325.12px;
-}
-
-nav summary{
-    /*padding: 18px 154px 14px 20px;*/
-    font-size: 18px;
-}
-
-nav ul li{
-    /*padding: 0px 21px 16.1px 21px;*/
-    color: var(--colorlinks);
-    list-style: none;
-}
-
-li::before{
-    content: " ● ";
-    color: var(--colornegro);
-    font-weight: bold;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
 }
 
 .wrapper {
@@ -47,6 +18,7 @@ p {
 }
 
 .header__title{
+    font-size: 3rem;
     text-align: center;
 }
 .hero {
@@ -63,9 +35,40 @@ p {
     grid-template-columns: 2fr 6fr;
 }
 
+.aside {
+    background: var(--colorheader);
+    font-weight: 600;
+    margin-block-start: 26px;
+    width: 270px;
+    height: 325.12px;
+}
+
+.nav-list {
+    font-size: 0.7rem;
+}
+
+.aside-nav .nav-list__item {
+    color: var(--colorlinks);
+    list-style: none;
+}
+
+.aside-nav .nav-list__item::before {
+    content: " ● ";
+    color: var(--colornegro);
+    font-weight: bold;
+}
+
 .pokedex-item {
     display: grid;
     grid-template-columns: 3fr 1fr;
+}
+
+.pokedex-item__title {
+    font-size: 1.5rem;
+}
+
+.pokedex-item__p {
+    font-family: 'Lato', sans-serif;
 }
 
 .pokedex-item__detail {
