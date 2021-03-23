@@ -4,10 +4,10 @@
     --colorfondo: #ffffff;
     --colorlinks: #19507F;
     --colorheader: #F6F7F8;
+    font-size: 18px;
 }
 
 .body {
-    font-size: 18px;
     color: var(--colornegro);
     font-family: 'Montserrat', sans-serif;
 }
@@ -44,7 +44,7 @@
 }
 
 .nav-list {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .aside-nav .nav-list__item {
@@ -64,7 +64,7 @@
 }
 
 .pokedex-item__title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .pokedex-item__p {
@@ -74,6 +74,7 @@
 .pokedex-item__detail {
     display: flex;
     justify-content: flex-start;
+    font-size: 0.8rem;
 }
 
 .pokedex-item__detail .title {
@@ -86,6 +87,7 @@
 
 .pokedex-item__links {
     margin: 26px 0px 29.5px 0px;
+    font-size: 0.8rem;
 }
 
 .pokedex-item__links .title{
