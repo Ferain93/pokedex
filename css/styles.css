@@ -127,6 +127,11 @@
 
 .footer {
     text-align: center;
+    color: #C1C8CE;
+    border-top: 3px solid var(--colorheader);
+    margin: 69.5px 0px 43px 0px;
+    padding-top: 33px;
+
 }
 
 .footer:hover{
