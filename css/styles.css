@@ -117,6 +117,7 @@
 .pokedex-item__links a { 
     color: var(--colorlinks); 
     text-decoration: none;
+    margin: 0px 5px 0px 0px;
 }
 
 .pokedex-item__img img {
