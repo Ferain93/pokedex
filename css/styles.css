@@ -72,6 +72,7 @@
 .pokedex-item {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    border-bottom: 3px solid var(--colorheader);
 }
 
 .pokedex-item__title {
@@ -113,6 +114,20 @@
     color: var(--colorlinks);
 }
 
+.pokedex-item__links a { 
+    color: var(--colorlinks); 
+    text-decoration: none;
+}
+
+.pokedex-item__img img {
+    border: 3px solid var(--colorheader);
+    border-radius: 5px;
+}
+
 .footer {
     text-align: center;
+}
+
+.footer:hover{
+    color: var(--colorheader);
 }
